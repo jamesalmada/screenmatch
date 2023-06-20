@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #88cded, #29d761);
+    height: 100vh;
+    font-family: arial;
+}
+
+.tabela_listagem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+input{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+form{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+td, th {
+    padding: .7em;
+    margin: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 100px;
+}
+
+th{
+    background-color: #00000;
+    width: 110px;
+}
+td{
+    font-weight:bold;
+    background-color: #00000;
+}
+
+
+
+.botao_excluir{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ccc;
+}
